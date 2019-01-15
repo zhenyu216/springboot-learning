@@ -1,0 +1,10 @@
+2019-01-15 11:33:46.807 ERROR 62844 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-01-15 11:33:47.088 ERROR 62844 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-01-15 11:33:47.119 ERROR 62844 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-01-15 11:33:47.295 DEBUG 62844 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-01-15 11:33:47.295  INFO 62844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3740 ms
+2019-01-15 11:33:47.529 DEBUG 62844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-01-15 11:33:48.092 DEBUG 62844 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-01-15 11:33:48.249 DEBUG 62844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-01-15 11:33:48.280 DEBUG 62844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-01-15 11:33:48.389 DEBUG 62844 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
