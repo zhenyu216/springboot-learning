@@ -1,4 +1,4 @@
-package org.zy;
+package org.yzy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

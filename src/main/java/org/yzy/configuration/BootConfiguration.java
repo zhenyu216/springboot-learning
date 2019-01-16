@@ -1,4 +1,4 @@
-package org.zy.configuration;
+package org.yzy.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
