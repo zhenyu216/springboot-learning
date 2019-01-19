@@ -1,27 +1,38 @@
 package org.yzy.entity;
 
-import org.hibernate.annotations.GenericGenerator;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 /**
  * Created by yangzhenyu on 2019/1/16.
  */
-@Entity(name="base_info")
-public class BaseInfo {
+@ApiModel
+@Entity(name = "base_info")
+public class BaseInfo implements Serializable {
     @Id
-    @Column(nullable = false,columnDefinition = "varchar(32)")
+    @Column(nullable = false, columnDefinition = "varchar(32)")
     private String id;
-    @Column(nullable = false,columnDefinition = "varchar(32)")
+
+    @ApiModelProperty("用户名")
+    @Column(nullable = false, columnDefinition = "varchar(32)")
     private String name;
-    @Column(nullable = true,columnDefinition = "int")
+
+    @ApiModelProperty("性别")
+    @Column(nullable = true, columnDefinition = "int")
     private int sex;
-    @Column(nullable = true,columnDefinition = "int")
+
+    @ApiModelProperty("年龄")
+    @Column(nullable = true, columnDefinition = "int")
     private int age;
-    @Column(nullable = true,columnDefinition = "varchar(256) comment'备注'")
+
+    @ApiModelProperty("备注")
+    @Column(nullable = true, columnDefinition = "varchar(256) comment'备注'")
     private String memo;
 
     public String getId() {

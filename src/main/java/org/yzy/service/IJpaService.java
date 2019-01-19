@@ -10,5 +10,10 @@ import java.util.List;
  */
 public interface IJpaService {
     Integer insert(String name, int sex, int age, String memo);
+
     List<BaseInfo> findAll();
+
+    void delete(String id);
+
+    BaseInfo getById(String id);
 }
